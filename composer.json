@@ -1,0 +1,17 @@
+{
+    "name": "shishima21/kafka-queue",
+    "require": {
+        "laravel/framework": "^7.30"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shishima\\KafkaQueue\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phuoc Nguyen",
+            "email": "shishima21@gmail.com"
+        }
+    ]
+}
