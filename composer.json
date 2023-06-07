@@ -1,5 +1,5 @@
 {
-    "name": "shishima21/kafka-queue",
+    "name": "shishima/kafka-queue",
     "require": {
         "laravel/framework": "^7.30"
     },
@@ -13,5 +13,12 @@
             "name": "Phuoc Nguyen",
             "email": "shishima21@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shishima\\KafkaQueue\\KafkaServiceProvider"
+            ]
+        }
+    }
 }
