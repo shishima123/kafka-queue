@@ -1,8 +1,6 @@
 {
     "name": "shishima/kafka-queue",
-    "require": {
-        "laravel/framework": "^7.30"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Shishima\\KafkaQueue\\": "src/"
