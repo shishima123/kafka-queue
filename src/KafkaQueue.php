@@ -53,6 +53,7 @@ class KafkaQueue extends Queue implements QueueContract
             switch ($message->err) {
                 case RD_KAFKA_RESP_ERR_NO_ERROR:
                     $job = unserialize($message->payload);
+					var_dump($message->payload);
                     $job->handle();
                     break;
                 case RD_KAFKA_RESP_ERR__PARTITION_EOF:
